@@ -1,0 +1,6 @@
+rootProject.name = 'demo-multimodule'
+
+include ':demo-common-lib'
+include ':demo-one-app'
+include ':demo-two-app'
+include ':demo-integration-test'

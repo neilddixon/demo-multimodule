@@ -1,0 +1,23 @@
+plugins {
+    id 'org.springframework.boot'
+    id 'io.spring.dependency-management'
+}
+
+group = 'za.co.neildixon.example.multimodule.two'
+version = '0.0.1-SNAPSHOT'
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    implementation project(':demo-common-lib')
+}
+
+bootJar {
+    enabled(true)
+}
+
+jar {
+    enabled(true)
+    archiveAppendix.set "lib"
+}
