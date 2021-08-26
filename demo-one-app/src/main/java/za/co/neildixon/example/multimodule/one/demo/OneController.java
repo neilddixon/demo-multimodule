@@ -10,8 +10,11 @@ public class OneController {
     @Value("${spring.application.name}")
     String appName;
 
+    @Value("${common.name}")
+    String commonProperty;
+
     @GetMapping("/ping")
     public String ping() {
-        return "Hello from :" + appName;
+        return String.format("Hello from :%s CommonProperty:%s", appName, commonProperty);
     }
 }

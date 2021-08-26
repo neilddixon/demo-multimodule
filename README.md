@@ -2,7 +2,7 @@
 
 ### Overview
 This project shows how Spring Boot can be used to create a common (component) library
-that can be shared and 'wired' into Spring Boot applications (One and Two).
+that can be shared and 'wired' into Spring Boot applications (One and Two) within this mono-repo.
 
 This project also shows how Spring Boot can be used to run integration tests, including common integration tests
 across both applications 
