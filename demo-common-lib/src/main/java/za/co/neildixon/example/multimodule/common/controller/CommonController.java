@@ -1,4 +1,4 @@
-package za.co.neildixon.example.multimodule.common;
+package za.co.neildixon.example.multimodule.common.controller;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.springframework.web.bind.annotation.GetMapping;

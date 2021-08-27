@@ -1,11 +1,12 @@
-package za.co.neildixon.example.multimodule.two.demo;
+package za.co.neildixon.example.multimodule.one;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class TwoController {
+public class OneController {
+
     @Value("${spring.application.name}")
     String appName;
 

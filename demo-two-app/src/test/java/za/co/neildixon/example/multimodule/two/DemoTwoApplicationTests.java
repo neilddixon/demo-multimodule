@@ -1,4 +1,4 @@
-package za.co.neildixon.example.multimodule.two.demo;
+package za.co.neildixon.example.multimodule.two;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Value;

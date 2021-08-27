@@ -2,8 +2,7 @@ package za.co.neildixon.example.multimodule.integrationtest;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.TestPropertySource;
-import za.co.neildixon.example.multimodule.one.demo.DemoOneApplication;
+import za.co.neildixon.example.multimodule.one.DemoOneApplication;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT,
         classes = DemoOneApplication.class,

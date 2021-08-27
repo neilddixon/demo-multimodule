@@ -1,6 +1,6 @@
 package za.co.neildixon.example.multimodule.integrationtest;
 
-import za.co.neildixon.example.multimodule.two.demo.DemoTwoApplication;
+import za.co.neildixon.example.multimodule.two.DemoTwoApplication;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
